@@ -1,0 +1,145 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;padding: 0; box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.navbar{
+    background: brown!important;
+}
+
+.navbar a{
+    text-transform: uppercase;
+    color: white!important;
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background:  rgba(12, 31, 28, 0.979);
+    position: relative;
+}
+
+.header-section h1{
+    color: white;
+    font-size: 2rem;
+}
+
+.header-section p{
+    color: red;
+    font-size: 1.5rem;
+}
+
+.center-div{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.work-div{
+    width: 100%;
+    height: auto;
+    background: rgb(25, 25, 121);
+    position: relative;
+}
+
+.work-div h1{
+    text-transform: capitalize;
+    padding: 10px 0;
+}
+
+hr{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.card{
+    transition: .4s ease;
+    background: transparent;
+}
+
+.card:hover{
+    box-shadow: violet;
+    transform: translateY(-10px);
+}
+
+.card-size{
+    padding: 5px 5px;
+}
+
+.card-body{
+    text-align: center!important;
+    text-transform: capitalize;
+    background: rgb(34, 25, 25);
+    color: white;
+    padding: 5px;
+}
+
+.card-body h4{
+    font-weight: 200;
+}
+
+button{
+    background:rgb(34, 25, 25)!important;
+    border: transparent!important;
+    text-transform: capitalize;
+    /* text-align: center; */
+    /* padding-top: 10px; */
+    margin-top: 20px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+button:hover{
+    background: red!important;
+}
+
+.contact-div{
+    width: 100%;
+    height: auto;
+    background: rgb(34, 25, 25);
+    position: relative;
+}
+
+.contact-div h1{
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.contact-div p{
+    color: white;
+    font-weight: 200;
+    text-align: center;
+}
+
+i{
+    color: white;
+}
+
+.contact-icon-div{
+    text-transform: capitalize;
+}
+
+/* .contact-center-div{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+} */
